@@ -117,7 +117,7 @@ fun DetailSurat(
     ){
 
         Row(
-            modifier = Modifier.fillMaxWidth().padding(top = 12.dp)
+            modifier = Modifier.fillMaxWidth().padding(16.dp, top = 12.dp)
         ){
             Text(text = judul,
                 modifier = Modifier.weight(0.8f))
