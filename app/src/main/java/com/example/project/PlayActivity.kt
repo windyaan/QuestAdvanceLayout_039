@@ -33,6 +33,12 @@ import androidx.core.provider.FontsContractCompat.Columns
 fun PlayActivity(){
     Column(modifier = Modifier.fillMaxSize()) {
         HeaderSection()
+        Text(text = "Kepada Yth,",
+            modifier = Modifier.padding(16.dp))
+        Text(text = "Rizky Ramadhan",
+            modifier = Modifier.padding(16.dp))
+        Spacer(modifier = Modifier.size(50.dp))
+
         DetailSurat(
             judul = "Nama",
             isinya = "Maman Alkatiri"
@@ -49,15 +55,15 @@ fun PlayActivity(){
             judul = "Kepentingan",
             isinya ="DetailSurat(\n" +
                     "               judul = \"Nama\", \n" +
-                    "               judul = \"Maman Alkatiri\", \n" +
+                    "               isinya = \"Maman Alkatiri\", \n" +
                     "               )\n" +
                     "DetailSurat(\n" +
                     "               judul = \"Alamat\", \n" +
-                    "               judul = \"Kota Bandung, Jawa Barat, Indonesia\", \n" +
+                    "               isinya = \"Kota Bandung, Jawa Barat, Indonesia\", \n" +
                     "               )\n" +
                     "DetailSurat(\n" +
                     "               judul = \"Alamat\", \n" +
-                    "               judul = \"Kota Bandung, Jawa Barat, Indonesia\", \n" +
+                    "               isinya = \"Kota Bandung, Jawa Barat, Indonesia\", \n" +
                     "               )\n" +
                     ")"
         )
@@ -109,11 +115,6 @@ fun DetailSurat(
     Column(
         modifier = Modifier.fillMaxWidth()
     ){
-        Text(text = "Kepada Yth,",
-            modifier = Modifier.padding(16.dp))
-        Text(text = "Rizky Ramadhan",
-            modifier = Modifier.padding(16.dp))
-        Spacer(modifier = Modifier.size(50.dp))
 
         Row(
             modifier = Modifier.fillMaxWidth().padding(top = 12.dp)
