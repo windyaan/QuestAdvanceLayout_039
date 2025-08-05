@@ -98,13 +98,13 @@ fun Layout(modifier: Modifier){
                 modifier = Modifier,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Image(painter = gambar2,
+                Image(
+                    painter = gambar2,
                     contentDescription = null
                 )
-                Column(
-                    modifier = modifier.fillMaxWidth()
-                ) {
-                    Text(text = "Hari Ramadhan",
+                Column() {
+                    Text(
+                        text = "Hari Ramadhan",
                         style = TextStyle(
                             fontSize = 30.sp,
                             fontFamily = FontFamily.Cursive
@@ -112,7 +112,8 @@ fun Layout(modifier: Modifier){
                     )
                     Row {
                         Text(text = "Tlpn : ")
-                        Text(text = "+628765432123",
+                        Text(
+                            text = "+628765432123",
                             color = Color.Blue
                         )
                     }
