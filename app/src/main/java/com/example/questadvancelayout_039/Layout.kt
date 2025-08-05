@@ -60,7 +60,10 @@ fun Layout(modifier: Modifier){
                 .background(color = Color.Yellow),
             contentAlignment = Alignment.Center
         ){
-            Row() {
+            Row(
+                modifier = Modifier,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
                 Image(painter = gambar1,
                     contentDescription = null
                 )
