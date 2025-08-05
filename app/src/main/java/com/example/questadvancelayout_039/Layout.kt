@@ -50,5 +50,56 @@ fun Layout(modifier: Modifier){
             text = "Teknologi Informasi",
             style = TextStyle(fontSize = 28.sp, color = Color.Gray)
         )
+
+        Spacer(modifier = Modifier.height(30.dp))
+
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(110.dp)
+                .background(color = Color.Yellow),
+            contentAlignment = Alignment.Center
+        ){
+            Row() {
+                Image(painter = gambar1,
+                    contentDescription = null
+                )
+                Column(
+                    modifier = modifier.fillMaxWidth()
+                ) {
+                    Text(text = "Hari Ramadhan")
+                    Text(text = "Tlpn : +628765432123")
+                }
+            }
+        }
+
+        Spacer(modifier = Modifier.height(30.dp))
+
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(110.dp)
+                .background(color = Color.Yellow),
+            contentAlignment = Alignment.Center
+        ){
+            Row() {
+                Image(painter = gambar2,
+                    contentDescription = null
+                )
+                Column(
+                    modifier = modifier.fillMaxWidth()
+                ) {
+                    Text(text = "Hari Ramadhan")
+                    Text(text = "Tlpn : +628765432123")
+                }
+            }
+        }
+
+        Spacer(modifier = Modifier.height(80.dp))
+
+        Text(
+            text = "© 2025 Windyaan",
+            style = TextStyle(fontSize = 16.sp, color = Color.Gray)
+        )
     }
 }
