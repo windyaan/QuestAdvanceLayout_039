@@ -73,7 +73,12 @@ fun Layout(modifier: Modifier){
                             fontFamily = FontFamily.Cursive
                         )
                     )
-                    Text(text = "Tlpn : +628765432123")
+                    Row {
+                        Text(text = "Tlpn : ")
+                        Text(text = "+628765432123",
+                            color = Color.Blue
+                        )
+                    }
                 }
             }
         }
@@ -100,7 +105,12 @@ fun Layout(modifier: Modifier){
                             fontFamily = FontFamily.Cursive
                         )
                     )
-                    Text(text = "Tlpn : +628765432123")
+                    Row {
+                        Text(text = "Tlpn : ")
+                        Text(text = "+628765432123",
+                            color = Color.Blue
+                        )
+                    }
                 }
             }
         }
