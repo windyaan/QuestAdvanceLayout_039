@@ -67,7 +67,12 @@ fun Layout(modifier: Modifier){
                 Column(
                     modifier = modifier.fillMaxWidth()
                 ) {
-                    Text(text = "Hari Ramadhan")
+                    Text(text = "Hari Ramadhan",
+                        style = TextStyle(
+                            fontSize = 30.sp,
+                            fontFamily = FontFamily.Cursive
+                        )
+                    )
                     Text(text = "Tlpn : +628765432123")
                 }
             }
@@ -89,7 +94,12 @@ fun Layout(modifier: Modifier){
                 Column(
                     modifier = modifier.fillMaxWidth()
                 ) {
-                    Text(text = "Hari Ramadhan")
+                    Text(text = "Hari Ramadhan",
+                        style = TextStyle(
+                            fontSize = 30.sp,
+                            fontFamily = FontFamily.Cursive
+                        )
+                    )
                     Text(text = "Tlpn : +628765432123")
                 }
             }
