@@ -67,7 +67,10 @@ fun Layout(modifier: Modifier){
                     painter = gambar1,
                     contentDescription = null
                 )
-                Column() {
+                Column(
+                    modifier = Modifier
+                        .padding(20.dp)
+                ) {
                     Text(
                         text = "Hari Ramadhan",
                         style = TextStyle(
