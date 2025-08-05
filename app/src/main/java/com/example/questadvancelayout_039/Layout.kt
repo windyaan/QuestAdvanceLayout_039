@@ -56,8 +56,7 @@ fun Layout(modifier: Modifier){
         Box(
             modifier = modifier
                 .fillMaxWidth()
-                .height(110.dp)
-                .background(color = Color.Yellow),
+                .height(110.dp),
             contentAlignment = Alignment.Center
         ){
             Row(
@@ -91,8 +90,7 @@ fun Layout(modifier: Modifier){
         Box(
             modifier = modifier
                 .fillMaxWidth()
-                .height(110.dp)
-                .background(color = Color.Yellow),
+                .height(110.dp),
             contentAlignment = Alignment.Center
         ){
             Row(
